@@ -1,4 +1,5 @@
 ﻿using System;
+using CoodirationTransformation.Util;
 
 namespace CoodirationTransformation
 {
@@ -6,7 +7,8 @@ namespace CoodirationTransformation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FileIO.readMatrixFromFile("1.txt");
+            
         }
     }
 }
